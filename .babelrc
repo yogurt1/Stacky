@@ -1,0 +1,28 @@
+{
+    "presets": [
+        ["env", {
+            "modules": false,
+            "targets": {
+                "chrome": 50,
+                "firefox": 45,
+                "ios": 9,
+                "safari": 9,
+                "edge": 13
+            }
+        }],
+        "react"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-class-properties",
+        "transform-decorators-legacy",
+        "transform-object-rest-spread"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "react-hot-loader/babel"
+            ]
+        }
+    }
+}

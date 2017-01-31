@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "standard",
+        "standard-jsx"
+    ],
+    "plugins": [
+        "standard",
+        "promise"
+    ],
+    "rules": {
+        "object-curly-spacing": ["error", "always"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/jsx-indent": ["error", 4],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "quotes": ["error", "double"]
+    }
+}
