@@ -11,9 +11,11 @@
     "dev": "webpack-dev-server"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "bootstrap": "4",
     "core-decorators": "^0.15.0",
     "font-awesome": "^4.7.0",
+    "github-api": "^3.0.0",
     "react": "^15.4.2",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-transition-group": "^15.4.2",
@@ -27,6 +29,7 @@
     "redux-devtools-extension": "^1.0.0",
     "redux-form": "^6.5.0",
     "redux-thunk": "^2.2.0",
+    "reselect": "^2.5.4",
     "styled-components": "^1.4.2",
     "whatwg-fetch": "^2.0.2"
   },
